@@ -4,7 +4,32 @@ body{
     font-family: 'Hanalei Fill', cursive;
 }
 
-h1, h2{
+header{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-direction: column;
+    height: 100px;
+    background-color: black;
+}
+
+.menu a{
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 50px;
+    color: #662c77;
+}
+
+h1{
+    background-color: darkgrey;
+    color: black;
+    text-align: center;
+    font-weight: 400;
+    font-size: 80px;
+    margin-top: 0%;
+}
+
+h2{
     color: black;
     text-align: center;
     font-weight: 400;
@@ -12,13 +37,51 @@ h1, h2{
 
 p{
     margin-left: 10px;
+    font-size: 20px;
 }
 
-button{
-border: solid black 2px;
-background-color: black;
-border-radius: 10%;
-padding: 10px;
-color: white;
+.legenda{
+    color: brown;
+    font-size: 15px;
+}
 
+.botoes{
+    color: white;
+    background-color:black;
+    border-color: black;
+    border-radius: 10%;
+    margin-left: 250px;
+}
+
+#especial{
+    border-radius: 10%;
+    border: solid black 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+    margin-left: 250px;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    height: 50px;
+}
+
+.menu img{
+    height:100%;
+    width: 200px;
+    float: right; 
+    padding-right: 15px;
+}
+
+#gato{
+    width:500px;
+    height: 100%;
+    margin-left: 100px;
+}
+
+#video{
+    margin-left: 100px;
 }
